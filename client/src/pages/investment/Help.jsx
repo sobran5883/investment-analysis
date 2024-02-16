@@ -1,4 +1,4 @@
-import { Mail } from 'lucide-react';
+// import { Mail } from 'lucide-react';
 
 const Help=()=>{
     return(
@@ -7,7 +7,7 @@ const Help=()=>{
                 <div className="md:w-8/12">
                     <div>
                         <h1 className="font-semibold text-gray-700 font-inter max-w-[700px] text-2xl md:text-4xl">Contact us in case of any queries</h1>
-                        <p className="mt-5 font-medium">Got a question? Send us a message and we’ll respond as soon as possible.</p>
+                        <p className="mt-5 font-medium">Got a question? Send us a message and we will respond as soon as possible.</p>
                     </div>
                     <div className="flex items-center mt-5 mb-12">
                         <h1>Write to Us:</h1>    
@@ -17,7 +17,7 @@ const Help=()=>{
                 <div className="w-4/12 flex flex-col justify-evenly">
                     <div className="flex items-center mb-4">
                         <div className="mx-2 mb-5">
-                        <Mail/>
+                        {/* <Mail/> */}
                         </div>
                         <div>
                             <h1>For Customer Queries</h1>
@@ -26,7 +26,7 @@ const Help=()=>{
                     </div>
                     <div className="flex items-center">
                         <div className="mx-2 mb-5">
-                        <Mail/>
+                        {/* <Mail/> */}
                         </div>
                         <div>
                             <h1>For Other Queries</h1>
