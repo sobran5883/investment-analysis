@@ -8,8 +8,8 @@ import authRouter from './routes/auth.route.js';
 // import path from 'path';
 
 mongoose
-    // .connect("mongodb+srv://sobran:sobran@cluster0.tynbv4w.mongodb.net/?retryWrites=true&w=majority")
-    .connect(process.env.MONGO)
+    .connect("mongodb+srv://sobran:sobran@cluster0.tynbv4w.mongodb.net/?retryWrites=true&w=majority")
+    // .connect(process.env.MONGO)
     .then(()=>{
         console.log("Connected to MongoDB!");
     })
